@@ -1,0 +1,267 @@
+body{
+    background-color: rgb(16, 2, 36);
+    }
+
+    #navbar{
+    display: flex;
+    }
+.logo{
+    margin:10px;
+    padding:10px;
+    color:orange;
+    position: absolute;
+    top:1%;
+    width: 100%;
+    font-size:20px;
+    }
+#navbar ul{
+    display:flex;
+    position: absolute;
+    top:1%;
+    margin-left: 600px;
+}
+#navbar ul li{
+    list-style: none;
+    }    
+
+#navbar ul li a{
+    display: block;
+    padding:1px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+#navbar ul li a:hover{
+    border:3px solid rgb(8, 8, 8);
+     color: black;
+     background-color: rgb(163, 239, 244);
+    }
+.banner{
+    position: relative;
+    width: 90%;
+    }
+.banner img{
+    height: 770px; 
+
+}
+.heading{
+    color:white;
+    position: absolute;
+    top:40%;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    
+}
+p{
+    color:white;
+    position: absolute;
+    top:50%;
+    width: 100%;
+    font-size: 30px;
+    margin-left: 60px;
+
+}
+.container .btn1{
+    position: absolute;
+    top:65%;
+    left: 45%;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color:transparent;
+    cursor: pointer;
+    color: orange;
+    border: 2px solid orange;       
+}
+.container .btn1:hover{
+    background-color: orange;
+    color:black;
+}
+
+.mid{
+    text-align: center;
+    color: aliceblue;
+}
+.spcl{
+    display: inline-block;
+    width: 200px;
+    color: aliceblue;
+    margin-left: 20px;
+
+}
+.spcl img{
+    height: 100px;
+}
+.container1{
+    height:400px;
+
+    
+}
+.container1 img{
+    width:450px;
+    margin-left:50px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 10px rgb(14, 13, 13);
+}
+.container1 img:hover{
+    box-shadow: 5px 5px 5px rgb(238, 230, 230);
+}
+
+.content{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 18px;
+}
+
+
+.head{
+    text-align: top;
+    text-align: center;
+    color: white;
+ 
+}
+.about{
+    width:580px;
+    color:white;
+    vertical-align: top;
+    margin-left: 80px;
+  
+    
+}
+.btn2{
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color:transparent;
+    cursor: pointer;
+    color:rgb(244, 146, 48);
+    border: 1px solid rgb(244, 146, 48);  
+    margin-top: 25px; 
+    padding: 8px;    
+}
+.btn2:hover{
+    background-color:rgb(244, 146, 48);
+    color:black;
+}
+.container2 h2{
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Water Brush', cursive;
+    font-size: 35px;
+    
+}
+.container2 button{
+    .
+        font-size: 15px;
+        border: none;
+        border-radius: 20px;
+        background-color:transparent;
+        cursor: pointer;
+        color:white;
+        border: 1px solid white;  
+        padding: 8px;    
+    
+}
+.container3 img{
+    height: 250px;
+    margin-left: 75px;
+}
+.container3 video{
+   
+    width:460px;
+    margin-left: 40px;
+ }
+ 
+ 
+ .view{
+     display: inline-block;
+     vertical-align: top;
+ }
+ .chef{
+     display: inline-block;
+     vertical-align:top; 
+     height:300px;
+     width:300px;
+     margin-left:30px;
+     background-color: rgb(254, 185, 198);
+     padding: 15px;
+     margin-top: 10px;
+     border-radius: 20px;
+     box-shadow: 7px 1px 2px 2px  rgb(254, 185, 198);
+
+ }
+ 
+.container4 img{
+    width: 270px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}   
+.container4 img:hover{
+    border-radius: 50%;
+    
+}
+.container4{
+    text-align: center;
+    padding: 5px;
+    color: white;
+} 
+.head2{
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Water Brush', cursive;
+    color: white;
+}
+.container4 button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 3px;
+    background-color: rgb(16, 2, 36);
+    border-radius:5px;
+    margin-top: 20px;
+    width: 250px;
+   
+}
+.container4 button:hover{
+    border: 1px solid rgb(244, 146, 48);
+    background-color:rgb(244, 146, 48);
+    color: white;
+    margin-top: 0px;
+}
+.container4 span{
+    font-size: 15px;
+
+}
+
+.feed{
+    display: inline-block;
+    vertical-align:top; 
+    height:240px;
+    width:300px;
+    margin-left:20px;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border:1px solid white;
+ 
+
+   
+}
+.feed img{
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   
+}
+.footer img{
+    margin-top: 20px;
+    width: 100%;
+    
+}
